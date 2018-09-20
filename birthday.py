@@ -38,5 +38,19 @@ c = float (input ('And the day? '))
 
 if a is 'october' and c == 31:
     print('You were born on Halloween!')
-if a is 'september' and c == 17:
+if a is 'september' and c == 19:
     print('Happy Birthday!')
+
+if a is 'september'or'october'or'november':
+    season = 'fall'
+
+if a is 'december'or'january'or'february':
+    season = 'winter'
+    
+if a is 'march'or'april'or'may':
+    season = 'spring'
+    
+if a is 'june'or'july'or'august':
+    season = 'summer'
+    
+print(season)
