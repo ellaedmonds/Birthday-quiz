@@ -1,7 +1,7 @@
 """
 birthday.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Ella Edmonds
+Credit: None
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -54,7 +54,7 @@ elif a in ['june','july','august']:
 elif b in [0:1979]:
     age = 'stone age.'
 elif b in [1980:1989]:
-    age = 'eighties'
+    age = 'eighties.'
 elif b in [1990:1999]:
     age = 'nineties.'
 elif b in [2000:2020]:
