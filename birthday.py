@@ -33,8 +33,8 @@ Example Session
 """
 name = input ('Hello, what is your name? ')
 a = input (str('Hi '+name+', what was the name of the month you were born? '))
-#b = float (input ('And what year were you born in, '+name+'? '))
-#c = float (input ('And the day? '))
+b = float (input ('And what year were you born in, '+name+'? '))
+c = float (input ('And the day? '))
 
 if a is 'october' and c == 31:
     print('You were born on Halloween!')
@@ -51,4 +51,13 @@ elif a in ['march','april','may']:
 elif a in ['june','july','august']:
     season = 'summer'
     
-print(season)
+elif b in [0:1979]:
+    age = 'stone age.'
+elif b in [1980:1989]:
+    age = 'eighties'
+elif b in [1990:1999]:
+    age = 'nineties.'
+elif b in [2000:2020]:
+    age = 'two thousands.'
+    
+print(name+', you are a '+season+' baby of the '+age)
