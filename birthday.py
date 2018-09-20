@@ -33,24 +33,22 @@ Example Session
 """
 name = input ('Hello, what is your name? ')
 a = input (str('Hi '+name+', what was the name of the month you were born? '))
-b = float (input ('And what year were you born in, '+name+'? '))
-c = float (input ('And the day? '))
+#b = float (input ('And what year were you born in, '+name+'? '))
+#c = float (input ('And the day? '))
 
 if a is 'october' and c == 31:
     print('You were born on Halloween!')
-if a is 'september' and c == 19:
+elif a is 'september' and c == 19:
     print('Happy Birthday!')
 
-if a is 'september'or'october'or'november':
-    season = 'fall'
 
-if a is 'december'or'january'or'february':
+elif a in ['september','october','november']:
+    season ='fall'
+elif a in ['december','january','february']:
     season = 'winter'
-    
-if a is 'march'or'april'or'may':
+elif a in ['march','april','may']:
     season = 'spring'
-    
-if a is 'june'or'july'or'august':
+elif a in ['june','july','august']:
     season = 'summer'
     
 print(season)
