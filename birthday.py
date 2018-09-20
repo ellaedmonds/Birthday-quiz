@@ -36,21 +36,21 @@ a = input (str('Hi '+name+', what was the name of the month you were born? '))
 b = float (input ('And what year were you born in, '+name+'? '))
 c = float (input ('And the day? '))
 
-if a is 'october' and c == 31:
+if a is 'October' and c == 31:
     print('You were born on Halloween!')
-elif a is 'september' and c == 19:
+elif a is 'September' and c == 19:
     print('Happy Birthday!')
 
-elif a in ['september','october','november']:
+elif a in ['September','October','November']:
     season ='fall'
-elif a in ['december','january','february']:
+elif a in ['December','January','February']:
     season = 'winter'
-elif a in ['march','april','may']:
+elif a in ['March','April','May']:
     season = 'spring'
-elif a in ['june','july','august']:
+elif a in ['June','July','August']:
     season = 'summer'
     
-elif 0<=b<=1979:
+if 0<=b<=1979:
     age = 'stone age.'
 elif 1980<=b<=1989:
     age = 'eighties.'
