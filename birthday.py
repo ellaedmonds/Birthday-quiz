@@ -42,7 +42,7 @@ elif a is 'September' and c == 19:
     print('Happy Birthday!')
 
 else:
-    elif a in ['September','October','November']:
+    if a in ['September','October','November']:
         season ='fall'
     elif a in ['December','January','February']:
         season = 'winter'
