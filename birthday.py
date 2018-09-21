@@ -41,22 +41,23 @@ if a is 'October' and c == 31:
 elif a is 'September' and c == 19:
     print('Happy Birthday!')
 
-elif a in ['September','October','November']:
-    season ='fall'
-elif a in ['December','January','February']:
-    season = 'winter'
-elif a in ['March','April','May']:
-    season = 'spring'
-elif a in ['June','July','August']:
-    season = 'summer'
-    
-if 0<=b<=1979:
-    age = 'stone age.'
-elif 1980<=b<=1989:
-    age = 'eighties.'
-elif 1990<=b<=1999:
-    age = 'nineties.'
-elif 2000<=b<=2020:
-    age = 'two thousands.'
-    
-print(name+', you are a '+season+' baby of the '+age)
+else:
+    elif a in ['September','October','November']:
+        season ='fall'
+    elif a in ['December','January','February']:
+        season = 'winter'
+    elif a in ['March','April','May']:
+        season = 'spring'
+    elif a in ['June','July','August']:
+        season = 'summer'
+        
+    if 0<=b<=1979:
+        age = 'stone age.'
+    elif 1980<=b<=1989:
+        age = 'eighties.'
+    elif 1990<=b<=1999:
+        age = 'nineties.'
+    elif 2000<=b<=2020:
+        age = 'two thousands.'
+        
+    print(name+', you are a '+season+' baby of the '+age)
