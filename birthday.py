@@ -38,7 +38,7 @@ c = float (input ('And the day? '))
 
 if a == 'October' and c == 31:
     print('You were born on Halloween!')
-elif a == 'September' and c == 19:
+elif a == 'September' and c == 21:
     print('Happy Birthday!')
 
 else:
