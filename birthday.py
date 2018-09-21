@@ -36,9 +36,9 @@ a = input (str('Hi '+name+', what was the name of the month you were born? '))
 b = float (input ('And what year were you born in, '+name+'? '))
 c = float (input ('And the day? '))
 
-if a is 'October' and c == 31:
+if a == 'October' and c == 31:
     print('You were born on Halloween!')
-elif a is 'September' and c == 19:
+elif a == 'September' and c == 19:
     print('Happy Birthday!')
 
 else:
