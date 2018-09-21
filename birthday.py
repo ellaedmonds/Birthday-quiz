@@ -32,7 +32,7 @@ Example Session
   Eric, you are a fall baby of the stone age.
 """
 name = input ('Hello, what is your name? ')
-a = input (str('Hi '+name+', what was the name of the month you were born? '))
+a = input (str('Hi '+name+', what was the name of the month you were born in? '))
 b = float (input ('And what year were you born in, '+name+'? '))
 c = float (input ('And the day? '))
 
