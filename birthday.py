@@ -52,7 +52,7 @@ else:
         season = 'summer'
         
     if 0<=b<=1979:
-        age = 'stone age.'
+        age = 'Stone Age.'
     elif 1980<=b<=1989:
         age = 'eighties.'
     elif 1990<=b<=1999:
